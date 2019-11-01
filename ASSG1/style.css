@@ -1,0 +1,62 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+div:nth-of-type(1) {
+  width: 50%;
+  float: left;
+}
+
+div:nth-of-type(2) {
+  width: 50%;
+  float: right;
+}
+
+p {
+  padding-top: 10px;
+}
+
+img.Triangle {
+  clip-path: polygon(100% 50%, 0 0, 0 100%);
+  width: 400px;
+}
+
+form {
+  padding: 2px;
+}
+
+textarea {
+  width: 25px;
+  height: 10px;
+}
+
+
+input.button {
+    width: 200px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  padding: 10px;
+  float: right;
+}
+
+li {
+  float: left;
+  font-size: 13px;
+  padding-right: 10px;
+}
+
+footer {
+  float: left;
+  clear: both;
+}
